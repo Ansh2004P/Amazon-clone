@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  background-color: #0f1111;
+  height: 70px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;;
+  z-index: 2;
+  box-shadow: none;
+}
+
+.nav-logo {
+  margin: 6px;
+  padding: 7px 10px 8px 10px;
+  height: 40px;
+  width: 90px;
+  display: inline-flex;
+}
+.logo {
+  background-image: url("assets/images/amazon_logo.png");
+  background-size: cover;
+  height: 40px;
+  width: 80%;
+}
+
+.logo-in {
+  width: 20%;
+  margin-top: 8;
+  padding-top: 7px;
+  padding-left: 2px;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 12px;
+}
+
+.add-second {
+  color: #ffffff;
+  font-size: 1rem;
+  padding-left: 4px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  padding-top: 0.65rem;
+  padding-right: 0.25rem;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  color: #0f1111;
+}
+
+.nav-signin {
+  margin-top: 10px;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-second {
+  font-size: 0.85 rem;
+  font-weight: 700;
+}
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  padding-top: 15px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.panel {
+  height: 40px;
+  width: 100%;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 70px;
+}
+
+.panel-all {
+  height: 25px;
+  padding-top: 12px;
+}
+
+.panel-ops p {
+  display: inline;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.panel-ops {
+  width: 90%;
+  font-size: 0.85rem;
+  padding-left: 40px;
+}
+
+.panel-ops p:hover {
+  border: 1.5px solid white;
+}
+
+.hero-section {
+  background-image:url(assets/images/Hero_image.jpg);
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  position: relative;
+  z-index: -9;
+}
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+  flex-wrap: wrap;
+  margin-top: -19rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  border: 2px solid black;
+  height: 30%;
+  width: 23%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: white;
+  border-color: rgb(240, 235, 235);
+  padding: 20px 0px 15px 0px;
+  margin-top: 15px;
+  z-index: 1;
+  box-shadow: 0px 50px 20px -7px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+.box-img {
+  margin-top: 1rem;
+  height: 300px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.box-content h2{
+  height: 10px;
+  margin-bottom: 100px;
+}
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content p {
+  color: #007185;
+}
+
+footer{
+  width: 100%;
+  height: 1rem;
+}
+
+.foot-panel1{
+  background-color: #37475a;
+  width: 100%;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.foot-panel2{
+  background-color: #232f3efd;
+  color:#DDDDDD;
+  display: flex;
+  height: 18rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.foot-panel2 h2{
+ font-size: 16px;
+ font-weight: bold;
+}
+
+.foot-panel2 p{
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: lighter;
+}
+
+.content{
+  margin-top: 60px;
+}
+
+hr {
+  color:white;
+}
